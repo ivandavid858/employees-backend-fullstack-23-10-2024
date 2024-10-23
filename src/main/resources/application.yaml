@@ -1,5 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://postgresql://postgres.znrfbeypwttovljhzsec:!()TimSa736@aws-0-eu-central-1.pooler.supabase.com:6543/postgres/employees-backend-19-10-2024
-    username: postgres.znrfbeypwttovljhzsec
-    password: "!()TimSa736"
