@@ -1,8 +1,3 @@
-#FROM maven:eclipse-temurin:19-jdk-alpine
-#VOLUME /tmp
-#COPY jarfiles/*.jar app.jar
-#ENTRYPOINT ["java","-jar","/app.jar"]
-
 FROM maven:3.8.5-openjdk-17 as build
 COPY . .
 RUN mvn clean package -DskipTests
