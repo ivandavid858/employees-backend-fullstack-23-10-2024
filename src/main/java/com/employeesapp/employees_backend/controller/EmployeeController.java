@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 //@CrossOrigin(origins = { "https://peppy-longma-136237.netlify.app/employees", "http://localhost:4200" })
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://peppy-longma-136237.netlify.app")
 public class EmployeeController {
 
     @Autowired
